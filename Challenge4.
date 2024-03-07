@@ -1,0 +1,15 @@
+/* Styles pour le mode sombre */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #333; /* Couleur sombre */
+    color: #fff; /* Texte en blanc */
+  }
+}
+
+/* Styles pour le mode clair */
+@media screen and (min-width: 601px) {
+  body {
+    background-color: #f9f9f9; /* Couleur claire */
+    color: #333; /* Texte en noir */
+  }
+}
